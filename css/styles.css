@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+font-family: 'Roboto', sans-serif;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-weight: 400;
+}
+
+.top-bar{
+    background: #1CD1B0;
+    
+}
+header{
+    position:sticky;
+    top:0;
+    z-index: 999;
+}
+h1 {
+    background-color:#00669F;
+    font-size: 40px;
+    padding: 10px;
+    width: 100%;
+}
+
+section {
+    position: relative;
+    left: calc(50% - 500px);
+}
+.card {
+    display: inline-block;
+    width: 300px;
+    border: solid 0px #000;
+    border-radius: 16px 16px 0px 0px;
+    margin: 150px 15px;
+}
+
+.texto-heroe {
+    background: #F3F3F3;
+    text-align: center;
+    padding: 75px 10px ;
+
+}
+
+.texto-heroe h2 {
+     font-size: 30px;
+}
+
+.texto-heroe p {
+    padding: 25px 5px 60px 5px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.texto-heroe a {
+text-decoration: none;
+color: white;
+background: #00669F;
+border: solid 1px white;
+padding: 15px 30px;
+
+}
+.perfil {
+    background: url(../img/batman-background.png);
+    height: 192px;
+    position: relative;
+}
+
+.perfil img {
+    border-radius: 70%;   
+    position:absolute;
+    left: calc(50% - 60px);
+    bottom: -60px;
+    width:120px;
+}
+
+.hq{
+    background: url(../img/fondo-hq.png);
+}
+
+footer p {
+    color: white;
+    background: #00669F;
+    padding: 15px;
+    font-size: 16px;
+}
