@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
-font-family: 'Roboto', sans-serif;
 padding: 0;
 margin: 0;
 box-sizing: border-box;
-font-weight: 400;
 }
 
+body {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+}
 .top-bar{
     background: #1CD1B0;
     
@@ -25,8 +27,7 @@ h1 {
 }
 
 section {
-    position: relative;
-    left: calc(50% - 500px);
+margin: 0 auto;
 }
 .card {
     display: inline-block;
