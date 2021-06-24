@@ -2,7 +2,7 @@
 
 Actividad para CTDEVELOPER en la materia Frontend I.
 <br>
-<a href="https://viessel.github.io/Heroes/">Mira como esta quendo!</a>
+<a href="https://viessel.github.io/Heroes/" target="_blank">Mira como esta quedando!</a>
 <br>
 ## Dudas 
 
