@@ -10,6 +10,7 @@ body {
 font-family: 'Roboto', sans-serif;
 font-weight: 400;
 }
+
 .top-bar{
     background: #1CD1B0;
     
@@ -23,11 +24,11 @@ h1 {
     background-color:#00669F;
     font-size: 40px;
     padding: 10px;
-    width: 100%;
 }
 
 section {
-margin: 0 auto;
+    position: relative;
+margin-left: calc(50% - 500px);
 }
 .card {
     display: inline-block;
